@@ -1137,7 +1137,7 @@ li {
 
     .main_09_newsletter_text_box {
         width: 96%;
-        height: 170px;
+        height: auto;
 
         display: flex;
         flex-flow: column wrap;
@@ -1149,11 +1149,12 @@ li {
     .main_09_newsletter_text_box h1 {
         color: #000;
         font-size: 35px;
-        line-height: 1px;
+        line-height: 30px;
         letter-spacing: 1px;
         font-weight: bold;
         margin: 8% 0 2% 0;
-        width: 80%;
+        width: 90%;
+        height: auto;
     }
 
     .main_09_newsletter_text_box button {
